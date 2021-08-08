@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@200&family=Poppins:wght@200&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+
+}
+
+header
+{
+   width:100%;
+   height:100vh;
+   background-image: url('img_1.jpg');
+   background-repeat: no-repeat;
+   background-size:cover;
+}
+.navbar{
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    background: #2c3135 !important;
+    padding: 20px 0px;
+
+}
+.navbar .navbar-brand{
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-transform: none;
+    padding: 10px 0px;
+}
+#navbarTogglerDemo02 > ul > li:nth-child(n){
+    padding: 0 10px ;
+}
+.img-class{
+    outline: solid 2px;
+   background-size: 100%;
+    
+}
+.p{
+    text-align: center;
+font-size: xx-large;
+display: flex;
+align-items: center;
+line-height: 1.5;
+padding: 0;
+position: relative;
+}
+.heading-content{
+    position: absolute;
+    top: 400px;
+    width: 100%;
+    max-width: 100%;
+    color: white;
+}
+.heading-content h2{
+    font-size: 2.5em;
+    font-weight: 600;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.heading-content p{
+    font-size: 1em;
+    font-weight: bolder;
+    color: white;
+    font-family: 'Montserrat';
+}
+.heading-content h1{
+    font-size: 3em;
+    text-transform: uppercase;
+    color: white;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
+#sidebar{
+    float: right;
+
+background: #44b0f6;
+
+box-sizing: border-box;
+}
+.row{
+    margin-top: 20px;
+}
+.mission{
+    padding-top: 10px;
+    text-align: center;
+}
+#sidebar-1{
+    float: left;
+    background:#44b0f6 ;
+}
+.mission{
+    font-weight: bolder;
+    font-size: xx-large;
+}
